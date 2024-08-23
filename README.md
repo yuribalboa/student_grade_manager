@@ -1,6 +1,6 @@
 # API REST de Gerenciamento de Notas de Alunos usando Node.js
 
-Este projeto é um servidor básico construído em Node.js que oferece uma API REST para o gerenciamento de notas de alunos. O servidor permite realizar operações de CRUD (Create, Read, Update, Delete) nas notas dos alunos, utilizando o módulo ES e a biblioteca `uuid` para gerar identificadores únicos.
+Este projeto é um servidor básico construído em Node.js que oferece uma API REST para o gerenciamento de notas de alunos. O servidor permite realizar operações de **CRUD (Create, Read, Update, Delete)** nas notas dos alunos, utilizando o módulo ES e a biblioteca `uuid` para gerar identificadores únicos.
 
 ## Tecnologias Utilizadas
 
@@ -21,11 +21,11 @@ A API oferece as seguintes funcionalidades para o gerenciamento de notas:
 3. **PUT /grades/:id**: Atualiza a nota de um aluno existente com base no ID.
 4. **DELETE /grades/:id**: Remove uma nota específica com base no ID.
 
-O servidor estará rodando em http://localhost:3000.
+O servidor estará rodando em http://localhost:3000
 
 ## Testando a API com Thunder Client
 
-Abra o VSCode e carregue o projeto.
-Abra a extensão Thunder Client.
-Crie uma nova coleção de requisições para testar as rotas GET, POST, PUT e DELETE implementadas no servidor.
-Execute as requisições e verifique as respostas do servidor.
+1. Abra o VSCode e carregue o projeto.
+2. Abra a extensão Thunder Client.
+3. Crie uma nova coleção de requisições para testar as rotas GET, POST, PUT e DELETE implementadas no servidor.
+4. Execute as requisições e verifique as respostas do servidor.
