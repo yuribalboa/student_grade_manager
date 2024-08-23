@@ -2,7 +2,7 @@
     "clientName": "Thunder Client",
     "collectionName": "student_grade_manager",
     "collectionId": "af9f9bdb-3215-427b-8457-a5b963bb8257",
-    "dateExported": "2024-08-23T16:33:00.329Z",
+    "dateExported": "2024-08-23T18:51:42.211Z",
     "version": "1.2",
     "folders": [],
     "requests": [
@@ -27,14 +27,43 @@
             "method": "POST",
             "sortNum": 40000,
             "created": "2024-08-23T16:18:07.957Z",
-            "modified": "2024-08-23T16:20:46.802Z",
+            "modified": "2024-08-23T18:49:08.168Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"studentName\": \"Thiago\",\n  \"subject\": \"English\",\n  \"grade\": \"7\"\n}",
+                "raw": "{\n  \"studentName\": \"Julia\",\n  \"subject\": \"English\",\n  \"grade\": \"9\"\n}",
                 "form": []
             }
+        },
+        {
+            "_id": "a98fea26-a766-412d-8d86-1a19d790ff9b",
+            "colId": "af9f9bdb-3215-427b-8457-a5b963bb8257",
+            "containerId": "",
+            "name": "localhost:3000/grades",
+            "url": "http://localhost:3000/grades/cec1bf29-a96e-43d2-b866-82c33689d76e",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-08-23T17:02:31.244Z",
+            "modified": "2024-08-23T18:49:31.523Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"studentName\": \"Vitor\",\n  \"subject\": \"English\",\n  \"grade\": \"10\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7788b17e-a4e3-43b9-a3af-9cdad4803a0e",
+            "colId": "af9f9bdb-3215-427b-8457-a5b963bb8257",
+            "containerId": "",
+            "name": "localhost:3000/grades",
+            "url": "localhost:3000/grades/494b924b-26b5-4d7d-87da-820c9c91839c",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2024-08-23T18:49:51.297Z",
+            "modified": "2024-08-23T18:50:20.199Z",
+            "headers": []
         }
     ],
-    "ref": "DT5kG1AdyTzemotDBTRJ4XV-LW0OWE5TxIgKhKef_j3bxGF34ohlJJIdR5f7Ixokt63-Bveu8afXvWryGEEJzQ"
+    "ref": "DT5kG1AdyTzemotDBTRJ4XO9dI_gymxpDtf1HIzAuUyhNGaxg7O2-f-HNMbzMDZk4CCfHgOTIb7hHSQ5oPLNLA"
 }
