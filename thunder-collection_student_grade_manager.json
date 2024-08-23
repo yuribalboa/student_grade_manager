@@ -1,0 +1,40 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "student_grade_manager",
+    "collectionId": "af9f9bdb-3215-427b-8457-a5b963bb8257",
+    "dateExported": "2024-08-23T16:33:00.329Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4733364b-cff0-4407-ac74-2689322b2e35",
+            "colId": "af9f9bdb-3215-427b-8457-a5b963bb8257",
+            "containerId": "",
+            "name": "localhost:3000/grades",
+            "url": "localhost:3000/grades",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-23T16:13:28.959Z",
+            "modified": "2024-08-23T16:17:24.341Z",
+            "headers": []
+        },
+        {
+            "_id": "150a5760-1ee6-423b-ae5e-65840a6d3a72",
+            "colId": "af9f9bdb-3215-427b-8457-a5b963bb8257",
+            "containerId": "",
+            "name": "localhost:3000/grades",
+            "url": "localhost:3000/grades",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-08-23T16:18:07.957Z",
+            "modified": "2024-08-23T16:20:46.802Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"studentName\": \"Thiago\",\n  \"subject\": \"English\",\n  \"grade\": \"7\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "DT5kG1AdyTzemotDBTRJ4XV-LW0OWE5TxIgKhKef_j3bxGF34ohlJJIdR5f7Ixokt63-Bveu8afXvWryGEEJzQ"
+}
