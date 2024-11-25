@@ -28,4 +28,4 @@ O servidor estará rodando em http://localhost:3000
 1. Abra o VSCode e carregue o projeto.
 2. Abra a extensão Thunder Client.
 3. Crie uma nova coleção de requisições para testar as rotas GET, POST, PUT e DELETE implementadas no servidor.
-4. Execute as requisições e verifique as respostas do servidor.
+4. Execute as requisições e verifique as respostas do servidor. 
